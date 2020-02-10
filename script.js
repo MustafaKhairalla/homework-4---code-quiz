@@ -182,3 +182,7 @@ function reloadThepage(){
     location.reload();
     return false;
 }
+
+function getScores(){
+    
+}
