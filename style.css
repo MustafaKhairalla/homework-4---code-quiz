@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.top{
+    background-color: bisque;
+    padding: 5rem;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.left{
+    display: block;
+    text-align: center;
+    background-color:;
+    width: 50%;
+}
+
+.right{
+    display: block;
+    text-align: center;
+    background-color:;
+    width: 50%;
+}
+
+.main{
+    background-color: burlywood;
+    padding: 3rem;
+}
+
+.questions{
+    width: 100%;
+    background-color: cornsilk;
+    padding: 2rem;
+}
+
+.hide{
+    display: none;
+}
+
+.btnChoice{
+    width: auto;
+    background-color: crimson;
+    margin: 15px;
+}
+
+.title{
+    width: 90%;
+}
+
+.final{
+    width: 75%;
+    margin: 25px auto;
+    height: 20vh;
+}
+
+.lowerdiv{
+    margin: 2rem auto;
+}

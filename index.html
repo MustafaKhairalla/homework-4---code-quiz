@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="script.js"></script>
+    <script src="questions.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>Quiz Code</h1>
+            <p>Want to test your Javascript knowledge? Let's go for a test drive</p>
+        </div>
+        <div class="score">
+            <div class="right"><span id="score"></span></div>
+            <div class="left"><span id="time"></span></div>
+        </div>
+        <div class="main" id="start-scr">
+            <button id="start-btn">Start Quiz</button>
+        </div>
+        <div class="questions hide" id="Q">
+            <h2 class="title" id="titleOfq"></h2>
+        </div>
+        <div class="final hide" id="final">
+            <label>Enter your inicial</label>
+            <input id="inicial" type="text">
+            <button class="submitInicial">submit</button>
+            <h4>Your score is: <spna id="scoreFinal"></spna></h4>
+        </div>
+        <div class="highscore hide" id="highScore">
+            <h3>Highest Score</h3>
+            
+        </div>
+        <div class="lowerdiv hide" id="lowBtns">
+            <button class="ClearStorage" id="clearStorage">Clear scores</button>
+            <button class="Go-Back" id="GoBack">Go back</button>
+        </div>
+        <div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
